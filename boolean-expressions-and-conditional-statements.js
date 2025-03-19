@@ -47,13 +47,13 @@ if (hasTorch === true) {
   let lightTorch = readline.question(`A strong gust of wind blows out your torch, but you're almost home and you know the way.
 Do you take the time to relight your torch? y or n:
 
-`)
+`);
     if (lightTorch === "y") {
       console.log(`
 You stop a moment to relight your torch.
 Being able to see your surroundings helps you keep up a quick pace.
 
-`)
+`);
         hasTorch = true
     } 
     else if (lightTorch === "n") {
@@ -61,11 +61,11 @@ Being able to see your surroundings helps you keep up a quick pace.
 Lighting the torch will take too much time and effort.
 You continue on your way.
 
-`)
+`);
         hasTorch = false
     }
     else {
-      console.log("Torches? We don't need no stinking torches.\n")
+      console.log("Torches? We don't need no stinking torches.\n");
     }
 }
 
@@ -98,5 +98,5 @@ else  {
   console.log(`
 Choosing to leave the sword right where it is, you continue home in the darkness considering if wandering home in the dark with no light and no protection was a wise choice.
 You continue to examine your life choices for the next three hours of the fifteen minute walk home.
-Without a light, you didn't notice when you wandered off the path toward home.`)
+Without a light, you didn't notice when you wandered off the path toward home.`);
 } 
